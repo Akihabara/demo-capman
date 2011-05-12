@@ -112,7 +112,7 @@
 			gbox.addAudio("bonus",[audioserver+"coin.mp3",audioserver+"coin.ogg"],{channel:"sfx"}); // The sound played when capman eat a bonus.
 			gbox.addAudio("default-menu-option",[audioserver+"select.mp3",audioserver+"select.ogg"],{channel:"sfx"}); // These are default sounds: are played maingame object during menus.
 			gbox.addAudio("default-menu-confirm",[audioserver+"start.mp3",audioserver+"start.ogg"],{channel:"sfx"});
-			gbox.addAudio("ingame",[audioserver+"ingame.mp3",audioserver+"capman-ingame.ogg"],{channel:"bgmusic",loop:true}); // This one is the ingame music. We're putting this into the "bgmusic" channel and will be looped: once ended will start over. Note that creating audio into the bgmusic channel makes them "lighter" for the browser, since is ready to be played only one at time.
+			gbox.addAudio("ingame",[audioserver+"ingame.mp3",audioserver+"ingame.ogg"],{channel:"bgmusic",loop:true}); // This one is the ingame music. We're putting this into the "bgmusic" channel and will be looped: once ended will start over. Note that creating audio into the bgmusic channel makes them "lighter" for the browser, since is ready to be played only one at time.
 
 
 			gbox.loadAll(go); // When everything is ready, the "loadAll" downloads all the needed resources and runs the "go" function when it's done loading.
